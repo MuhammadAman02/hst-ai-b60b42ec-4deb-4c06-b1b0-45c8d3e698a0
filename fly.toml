@@ -1,0 +1,52 @@
+# fly.toml file generated for Python FastAPI applications
+
+app = "your-app-name" # Will be replaced during deployment
+primary_region = "sin" # Choose a region close to you or your users
+kill_signal = "SIGINT"
+kill_timeout = 5
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PORT = "8000"
+  HOST = "0.0.0.0"
+
+[http_service]
+  internal_port = 8000 # Must match the port your app listens on inside the container
+  force_https = true
+  auto_stop_machines = true # Automatically stop machines when idle to save costs
+  auto_start_machines = true # Automatically start machines when requests come in
+  min_machines_running = 0 # Set to 0 to minimize costs
+  processes = ["app"]
+  
+  # Advanced auto-scaling configuration
+  [http_service.concurrency]
+    type = "connections"
+    hard_limit = 1000
+    soft_limit = 800
+
+  # Auto-deletion settings for inactive machines
+  [[http_service.checks]]
+    grace_period = "30s"
+    interval = "15s"
+    method = "GET"
+    path = "/api/health"
+    protocol = "http"
+    timeout = "10s"
+    [http_service.checks.headers]
+      Host = "localhost"
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 512 # Adjust based on your app's needs
+  
+  # Auto-shutdown configuration
+  [vm.shutdown]
+    # Shutdown after 60 minutes of inactivity
+    idle_timeout = "60m"
+    # Grace period before forced shutdown
+    grace_period = "30s"
+
+ 

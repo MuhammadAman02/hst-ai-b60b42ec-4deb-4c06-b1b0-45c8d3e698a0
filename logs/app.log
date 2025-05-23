@@ -1,0 +1,61 @@
+2025-05-13 16:31:59 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-13 16:43:32 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-13 16:48:49 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-13 16:48:49 - app - INFO - __init__:startup_event:73 - Starting My Enterprise App v1.0.0
+2025-05-13 16:49:58 - app - INFO - __init__:shutdown_event:78 - Shutting down My Enterprise App
+2025-05-13 16:50:00 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-13 16:50:00 - app - INFO - __init__:startup_event:73 - Starting My Enterprise App v1.0.0
+2025-05-13 16:52:31 - app - INFO - __init__:shutdown_event:78 - Shutting down My Enterprise App
+2025-05-13 16:52:33 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-13 16:52:33 - app - INFO - __init__:startup_event:73 - Starting My Enterprise App v1.0.0 (development)
+2025-05-13 16:53:18 - app - INFO - __init__:shutdown_event:78 - Shutting down My Enterprise App
+2025-05-13 16:53:21 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-13 16:53:21 - app - INFO - __init__:startup_event:73 - Starting My Enterprise App v1.0.0 (development)
+2025-05-13 16:53:31 - app.core.error_handling - ERROR - error_handling:http_exception_handler:12 - HTTPException: 404 Not Found for GET /favicon.ico
+2025-05-13 16:53:36 - app.core.error_handling - ERROR - error_handling:http_exception_handler:12 - HTTPException: 404 Not Found for GET /about
+2025-05-13 16:53:57 - app - INFO - __init__:shutdown_event:78 - Shutting down My Enterprise App
+2025-05-14 15:53:05 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-14 15:53:05 - app - INFO - __init__:startup_event:73 - Starting My Enterprise App v1.0.0 (development)
+2025-05-14 15:53:08 - app.core.error_handling - ERROR - error_handling:http_exception_handler:12 - HTTPException: 404 Not Found for GET /favicon.ico
+2025-05-14 16:05:59 - app.core.error_handling - ERROR - error_handling:http_exception_handler:12 - HTTPException: 404 Not Found for GET /about
+2025-05-14 16:19:46 - app - INFO - __init__:shutdown_event:78 - Shutting down My Enterprise App
+2025-05-14 16:19:53 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-14 16:19:53 - app - INFO - __init__:startup_event:73 - Starting My Enterprise App v1.0.0 (development)
+2025-05-22 21:55:31 - app - INFO - __init__:<module>:30 - Using static directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\static
+2025-05-22 21:55:31 - app - INFO - __init__:<module>:38 - Using templates directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\templates
+2025-05-22 21:55:31 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-22 21:55:33 - app - INFO - __init__:<module>:30 - Using static directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\static
+2025-05-22 21:55:33 - app - INFO - __init__:<module>:38 - Using templates directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\templates
+2025-05-22 21:55:33 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-22 21:55:35 - app - INFO - __init__:startup_event:67 - Starting My Enterprise App v1.0.0 (development)
+2025-05-22 21:55:47 - app.frontend.routes - INFO - routes:index:27 - Attempting to render index.html
+2025-05-22 21:56:07 - app - INFO - __init__:shutdown_event:72 - Shutting down My Enterprise App
+2025-05-22 21:56:16 - app - INFO - __init__:<module>:30 - Using static directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\static
+2025-05-22 21:56:16 - app - INFO - __init__:<module>:38 - Using templates directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\templates
+2025-05-22 21:56:16 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-22 21:56:16 - app - INFO - __init__:startup_event:67 - Starting My Enterprise App v1.0.0 (development)
+2025-05-22 23:28:59 - app - INFO - __init__:<module>:30 - Using static directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\static
+2025-05-22 23:28:59 - app - INFO - __init__:<module>:38 - Using templates directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\templates
+2025-05-22 23:28:59 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-22 23:28:59 - app - INFO - __init__:startup_event:67 - Starting My Enterprise App v1.0.0 (development)
+2025-05-22 23:31:42 - app - INFO - __init__:<module>:30 - Using static directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\static
+2025-05-22 23:31:42 - app - INFO - __init__:<module>:38 - Using templates directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\templates
+2025-05-22 23:31:42 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-22 23:31:42 - app - INFO - __init__:startup_event:67 - Starting My Enterprise App v1.0.0 (development)
+2025-05-22 23:31:47 - app.frontend.routes - INFO - routes:index:27 - Attempting to render index.html
+2025-05-22 23:58:41 - app - INFO - __init__:shutdown_event:72 - Shutting down My Enterprise App
+2025-05-22 23:58:44 - app - INFO - __init__:<module>:30 - Using static directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\static
+2025-05-22 23:58:44 - app - INFO - __init__:<module>:38 - Using templates directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\templates
+2025-05-22 23:58:44 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-22 23:58:44 - app - INFO - __init__:startup_event:67 - Starting My Enterprise App v1.0.0 (development)
+2025-05-23 00:00:33 - app - INFO - __init__:shutdown_event:72 - Shutting down My Enterprise App
+2025-05-23 00:00:36 - app - INFO - __init__:<module>:30 - Using static directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\static
+2025-05-23 00:00:36 - app - INFO - __init__:<module>:38 - Using templates directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\templates
+2025-05-23 00:00:36 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-23 00:00:36 - app - INFO - __init__:startup_event:67 - Starting My Enterprise App v1.0.0 (development)
+2025-05-23 00:04:17 - app - INFO - __init__:shutdown_event:72 - Shutting down My Enterprise App
+2025-05-23 00:13:20 - app - INFO - __init__:<module>:30 - Using static directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\static
+2025-05-23 00:13:20 - app - INFO - __init__:<module>:38 - Using templates directory at C:\Users\kisho\Desktop\HSTAIEngineer\project_base\app\templates
+2025-05-23 00:13:20 - app.core.error_handling - INFO - error_handling:register_exception_handlers:50 - Custom exception handlers registered.
+2025-05-23 00:13:20 - app - INFO - __init__:startup_event:67 - Starting My Enterprise App v1.0.0 (development)
+2025-05-23 00:52:05 - app - INFO - __init__:shutdown_event:72 - Shutting down My Enterprise App
